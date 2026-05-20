@@ -5,7 +5,7 @@ export interface Pet {
     details: string,
     location: string,
     description: string,
-    image?: string | null,
+    image?: string,
 }
 
 export interface User {
