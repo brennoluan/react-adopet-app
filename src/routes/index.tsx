@@ -8,7 +8,7 @@ import Home from '../pages/Home/index.tsx';
 import Contact from '../pages/Contact/index.tsx';
 import SignInUp from '../pages/SignInUp/index.tsx';
 
-const Wrapper = ({children}) => {
+const Wrapper = ({children}: { children: React.ReactNode }) => {
     return (
         <div className='flex flex-col min-h-screen bg-white'>
             <Header/>
