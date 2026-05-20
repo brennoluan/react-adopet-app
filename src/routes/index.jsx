@@ -1,12 +1,12 @@
 import {createBrowserRouter} from 'react-router';
 import Header from '../components/Header/Header.tsx';
 import Footer from '../components/Footer/Footer.tsx';
-import NotFound from '../pages/NotFound';
+import NotFound from '../pages/NotFound/index.tsx';
 import React from 'react';
-import Profile from '../pages/Profile';
-import Home from '../pages/Home';
-import Contact from '../pages/Contact';
-import SignInUp from '../pages/SignInUp';
+import Profile from '../pages/Profile/index.tsx';
+import Home from '../pages/Home/index.tsx';
+import Contact from '../pages/Contact/index.tsx';
+import SignInUp from '../pages/SignInUp/index.tsx';
 
 const Wrapper = ({children}) => {
     return (
