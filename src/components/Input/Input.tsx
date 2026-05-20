@@ -1,6 +1,8 @@
+import * as React from "react";
+
 interface InputProps {
-    type: string;
-    placeholder: string;
+    type?: string;
+    placeholder?: string;
     value: string;
     onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     label: string;

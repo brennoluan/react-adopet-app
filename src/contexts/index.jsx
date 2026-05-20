@@ -1,10 +1,10 @@
-import { PetsProvider } from './pets/pets';
-import { UsersProvider } from './users/users';
+import {PetsProvider} from './pets/pets.tsx';
+import {UsersProvider} from './users/users.tsx';
 
-export const Contexts = ({ children }) => {
-	return (
-		<UsersProvider>
-			<PetsProvider>{children}</PetsProvider>
-		</UsersProvider>
-	);
+export const Contexts = ({children}) => {
+    return (
+        <UsersProvider>
+            <PetsProvider>{children}</PetsProvider>
+        </UsersProvider>
+    );
 };
